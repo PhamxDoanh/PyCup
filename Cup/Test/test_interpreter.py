@@ -14,7 +14,7 @@ class InterpreterTest(unittest.TestCase):
         with open(os.path.join(TESTS_DIR, path)) as f:
             return self._evaluate(f.read())
 
-    def test_big(self):
-        self.assertEqual(self._evaluate_file('factorial.abr'), 3628800)
-        self.assertEqual(self._evaluate_file('merge_sort.abr'), [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-        self._evaluate_file('big.abr')
+#     def test_big(self):
+#         self.assertEqual(self._evaluate_file(''),)
+#         self.assertEqual(self._evaluate_file(''),)
+#         self._evaluate_file('')
