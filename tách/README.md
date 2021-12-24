@@ -1,8 +1,6 @@
 # CUP - NGÔN NGỮ LẬP TRÌNH CHO GIÁO DỤC VÀ PHÁT TRIỂN!
 ---
-
 Đây là một triển khai về một ngôn ngữ lập trình thông dịch được viết và lấy cảm hứng từ [python](https://www.python.org/) với mục đích giáo dục, đào tạo đồng thời dùng cả trong phát triển khoa học máy tính, ... Dưới đây là cái nhìn tổng thể về ngôn ngữ này:
-
 ---
 ### I. Dự án này bao gồm:
 
