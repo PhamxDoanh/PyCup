@@ -78,7 +78,7 @@ say(key + " found at: " + string(output))
 Trên màn hình Command Prompt (cmd), nhập các lệnh sau:
 
 ```
-git clone https://github.com/akrylysov/abrvalg.git
-cd abrvalg
-python -m abrvalg tests / factorial.abr
+git clone https://github.com/ArtistEatCode/PyCup.git
+cd Cup
+python -m Cup Test/hello_world.cup
 ```
