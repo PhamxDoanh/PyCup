@@ -1,7 +1,7 @@
 # CUP - NGÔN NGỮ LẬP TRÌNH CHO GIÁO DỤC VÀ PHÁT TRIỂN!
----
+
 Đây là một triển khai về một ngôn ngữ lập trình thông dịch được viết và lấy cảm hứng từ [python](https://www.python.org/) với mục đích giáo dục, đào tạo đồng thời dùng cả trong phát triển khoa học máy tính, ... Dưới đây là cái nhìn tổng thể về ngôn ngữ này:
----
+
 ### I. Dự án này bao gồm:
 
 - Lexer sử dụng biểu thức chính quy ([regex](https://en.wikipedia.org/wiki/Regular_expression))
@@ -22,13 +22,13 @@
 - Các kiểu dữ liệu:
 	- [x] Chuỗi (string), kí tự (char) `"Hello Cup", 'Cup of Tea', 'a', "z", ...`
 	- [x] Số nguyên (integer), số thực (decimal), số phức (complex) `123, 3.14, .6, 12+i, ...`
-	- [] Logic (logic) `true, false, null, 0, 1`
+	- [ ] Logic (logic) `true, false, null, 0, 1`
 	- [x] Thứ tự trong ASCII (ordinal) `65 <-> 'A', 97 <-> 'a', ...`
 	- [x] Danh sách (list) `[1, '2', 3, "four", 5] ...`
-	- [] Tập hợp (set) `{0, 1, 1, 2, 3, 5, 8, 13} ...`
-	- [] Vỏ bọc (shell) `(true, false, true) ...`
+	- [ ] Tập hợp (set) `{0, 1, 1, 2, 3, 5, 8, 13} ...`
+	- [ ] Vỏ bọc (shell) `(true, false, true) ...`
 	- [x] Từ điển (dict) `{"color":"red", "email":"bla@gmail.com"}`
-	- [] Phạm vi (range) `[1;10] (0;5) (100; 1] [-oo; +oo)`
+	- [ ] Phạm vi (range) `[1;10] (0;5) (100; 1] [-oo; +oo)`
 
 - [x] Biến và Hằng `date = '12/24/2021', exp = true, ...`
 - [x] Chú thích `// this is comment`
@@ -43,17 +43,18 @@
 	
 - [x] Xử lí ngoại lệ `do..unless..last`
 - [x] Hàm chức năng `let func(): ...`
-- [] Lớp đối tượng `class Call: ...`
+- [ ] Lớp đối tượng `class Call: ...`
 - [x] Chức năng sẵn có `say("doanh"), read("Today is: ") ...`
-- [] liên kết module `use..of`
+- [ ] liên kết module `use..of`
 - [x] từ khóa `quit, continue, skip, return, throw, ...`
+- Comming soon ...
 
 ### III. Ví dụ về tìm kiếm nhị phân trong Cup:
 
 ```
 let BinarySearch(array, low, high, key): // same as find() built-in function
 	while low <= high:
-		mid = low + (high - low)/2
+		mid = low + (high - low)\2
 		if array[mid] == key:
 			return mid
 		elif array[mid] > key:
