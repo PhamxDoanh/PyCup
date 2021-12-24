@@ -1,2 +1,0 @@
-# PyCup
-Interpreted Programming Languge 
