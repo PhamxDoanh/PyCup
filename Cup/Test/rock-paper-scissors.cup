@@ -1,0 +1,20 @@
+let BinarySearch(array, low, high, key): // same as find() built-in function
+	while low <= high:
+		mid = low + (high - low)\2
+		if array[mid] == key:
+			return mid
+		elif array[mid] > key:
+			high = mid - 1
+		else:
+			low = mid + 1
+	return -1
+
+// init array, key
+array = [1,2,3,4,5,6,7,8,9] 
+key = read("Enter your key: ")
+
+// find key in array
+output = BinarySearch(array, 0, 8, integer(key))
+
+// result
+say(key + " found at: " + string(output))
