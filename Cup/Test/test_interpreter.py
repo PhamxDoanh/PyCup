@@ -1,6 +1,6 @@
-import unittest
-import os
-from abrvalg.interpreter import evaluate
+import unittest, os
+
+from Cup.Interpreter import evaluate
 
 TESTS_DIR = os.path.dirname(__file__)
 
@@ -14,7 +14,7 @@ class InterpreterTest(unittest.TestCase):
         with open(os.path.join(TESTS_DIR, path)) as f:
             return self._evaluate(f.read())
 
-#     def test_big(self):
-#         self.assertEqual(self._evaluate_file(''),)
-#         self.assertEqual(self._evaluate_file(''),)
-#         self._evaluate_file('')
+    # def test_big(self):
+    #     self.assertEqual(self._evaluate_file(''),)
+    #     self.assertEqual(self._evaluate_file(''),)
+    #     self._evaluate_file('')
