@@ -1,6 +1,6 @@
 import unittest
-from abrvalg.lexer import Lexer
 
+from Cup.Lexer import Lexer
 
 class LexerTest(unittest.TestCase):
 
@@ -32,14 +32,14 @@ class LexerTest(unittest.TestCase):
         self._assertTokensEq(src, expected)
 
     def test_comments(self):
-        self._assertTokensEq('#comment', '')
+        self._assertTokensEq('// comment', '')
 
-        self._assertTokensEq('"#not comment"', 'STRING NEWLINE')
+        self._assertTokensEq('"// not comment"', 'STRING NEWLINE')
 
-        src1 = '''# continue
+        src1 = '''// continue
 continue'''
         self._assertTokensEq(src1, 'CONTINUE NEWLINE')
 
         src2 = '''break
-    # continue'''
+    // continue'''
         self._assertTokensEq(src2, 'BREAK NEWLINE')
