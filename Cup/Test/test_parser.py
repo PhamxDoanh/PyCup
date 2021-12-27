@@ -1,7 +1,8 @@
 import unittest
-from abrvalg import ast
-from abrvalg.lexer import Lexer, TokenStream
-from abrvalg.parser import Parser
+
+from Cup import AST
+from Cup.Lexer import Lexer, TokenStream
+from Cup.Parser import Parser
 
 
 class ParserTest(unittest.TestCase):
