@@ -12,16 +12,16 @@
 
 ### II. Mục tiêu của Cup:
 
-|Operators	|Description	|Example	|
-|:---:		|:---:			|:---:		|
-|Arithmetic	|`+, -, *, /, \, %, ^, |x|, x!`|`1 + 2, 8 - 8, 5!, |-12|, ...`|
-|Assignment	|`=, :, x+, x- <br><br> +=, -=, *=, /=, \=, %=, ^=, &&=, ||=, ^^=`|`x = 10, name: 'Hxngxd', x+ (x = x + 1), x += y (x = x + y), ...`|
-|Comparison	|`<, >, <=, >=, ==, !=, <=>, ><`|`0 < 1, 1 == 1, 1 <=> 'one, {1,2,3} >< {2,3,5}, ...`|
-|Logical	|`&, |, !, and, or, not`|`true & false, me and you, eat|cook, not null, ...`|
-|Identity	|`is , is not`	|`1 is true, 1 is not false, ...`|
-|Membership	|`in, not in`	|`1 in [1,2,3], 'man' not in ['male', 'female'], ...`|
-|Bitwise	|`&&, ||, ^^, <<, >>`|`1 && 1, 1 << 2, 0 ^^ 1, ...`|
-|Others		|`+a, -a, a?, ~a`|`+1, -3.14, true?, ~1, ...`|
+|	|Operators	|Description	|Example	|
+|:-:|:---:		|:---:			|:---:		|
+|ok	|Arithmetic	|+, -, *, /, \\, %, ^, \|x\|, x!|1 + 2, 8 - 8, 5!, \|-12\|, ...|
+|ok	|Assignment	|=, :, x+, x- <br><br> +=, -=, *=, /=, \=, %=, ^=, &&=, \|\|=, ^^=|pi = 3.14, x = 100, friend: 'Hxngxd', cup: 'tea' <br><br> x+ (x = x + 1), y- (y = y - 1), x += y (x = x + y), ...|
+|ok	|Comparison	|<, >, <=, >=, ==, !=, <=>, ><|0 < 1, 1 == 1, 1 <=> 'one', {1,2,3} >< {2,3,5}, ...|
+|ok	|Logical	|&, \|, !, and, or, not|true & false, me and you, eat\|cook, not null, ...|
+|ok	|Identity	|is , is not	|1 is true, 1 is not false, ...|
+|ok	|Membership	|in, not in	|1 in [1,2,3], 'man' not in ['male', 'female'], ...|
+|ok	|Bitwise	|&&, \|\|, ^^, <<, >>|1 && 1, 1 << 2, 0 ^^ 1, ...|
+|ok	|Others		|+a, -a, a?, ~a|+1, -3.14, true?, ~1, ...|
 
 - Các kiểu dữ liệu:
 	- [x] Chuỗi (string), kí tự (char) `"Hello Cup", 'Cup of Tea', 'a', "z", ...`
