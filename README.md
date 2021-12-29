@@ -12,12 +12,16 @@
 
 ### II. Mục tiêu của Cup:
 
-- Các toán tử cơ bản:
-	- [x] Toán học `+, -, *, /, \, %, ^`
-	- [x] Quan Hệ `<, >, <=, >=, ==, !=, <=>, ><`
-	- [x] Logic `&, |, !`
-	- [x] Bitwise `&&, ||, ^^, <<, >>`
-	- [x] khác `+a, -a, ?a, ~a`
+|Operators	|Description	|Example	|
+|:---:		|:---:			|:---:		|
+|Arithmetic	|`+, -, *, /, \, %, ^, |x|, x!`|`1 + 2, 8 - 8, 5!, |-12|, ...`|
+|Assignment	|`=, :, x+, x- <br><br> +=, -=, *=, /=, \=, %=, ^=, &&=, ||=, ^^=`|`x = 10, name: 'Hxngxd', x+ (x = x + 1), x += y (x = x + y), ...`|
+|Comparison	|`<, >, <=, >=, ==, !=, <=>, ><`|`0 < 1, 1 == 1, 1 <=> 'one, {1,2,3} >< {2,3,5}, ...`|
+|Logical	|`&, |, !, and, or, not`|`true & false, me and you, eat|cook, not null, ...`|
+|Identity	|`is , is not`	|`1 is true, 1 is not false, ...`|
+|Membership	|`in, not in`	|`1 in [1,2,3], 'man' not in ['male', 'female'], ...`|
+|Bitwise	|`&&, ||, ^^, <<, >>`|`1 && 1, 1 << 2, 0 ^^ 1, ...`|
+|Others		|`+a, -a, a?, ~a`|`+1, -3.14, true?, ~1, ...`|
 
 - Các kiểu dữ liệu:
 	- [x] Chuỗi (string), kí tự (char) `"Hello Cup", 'Cup of Tea', 'a', "z", ...`
