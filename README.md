@@ -86,3 +86,10 @@ git clone https://github.com/ArtistEatCode/PyCup.git
 cd Cup
 python -m Cup Test/hello_world.cup
 ```
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/SK1Y101"><img src="https://avatars.githubusercontent.com/u/86651618?v=4" width="100px;" alt=""/><br /><sub><b>ArtistEatCode</b></sub></a><br /><a href="https://github.com/Skiylia-Lang/PySkiylia/commits?author=SK1Y101" title="Code">💻</a> <a href="https://github.com/Skiylia-Lang/PySkiylia/pulls?q=is%3Apr+reviewed-by%3ASK1Y101" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/SK2Y202"><img src="https://avatars.githubusercontent.com/u/76171192?v=4" width="100px;" alt=""/><br /><sub><b>hxngxd</b></sub></a><br /><a href="https://github.com/Skiylia-Lang/PySkiylia/pulls?q=is%3Apr+reviewed-by%3ASK2Y202" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
