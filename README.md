@@ -1,6 +1,7 @@
 # CUP - NGÔN NGỮ LẬP TRÌNH CHO GIÁO DỤC + PHÁT TRIỂN!    [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
 <div align = 'center'><img src="Cup.png" width="450px;" alt="Cups icon"/></div>
+
 Đây là triển khai của một ngôn ngữ lập trình thông dịch được viết và lấy cảm hứng từ [python](https://www.python.org/) cho các mục đích giáo dục, đào tạo và phát triển khoa học máy tính. Dưới đây là cái nhìn tổng quan về ngôn ngữ này:
 
 ### I. Dự án này bao gồm:
